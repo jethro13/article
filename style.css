@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+  width: 100%;
+}
+button {
+  position: absolute;;
+  top: -1px;
+  right: -1px;
+}
+article {
+  width: calc(50% - 18px);
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  border: 2px ridge deeppink;
+
+}
+img {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 10px;
+}
+h2 {
+  float: left;
+  width: calc(80% - 18px);
+
+}
+.clear1 {
+  float: left;
+}
+p {
+  margin-bottom: 100px;
+}
+a {
+
+  position: absolute;
+  bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: red;
+  text-decoration: none;
+  color:white;
+}
+
+a:hover {
+  transform: scale(3);
+  background-color: white;
+  color:red;
+}
